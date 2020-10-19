@@ -1,0 +1,54 @@
+.form_collection{
+	border:1px solid grey;
+	border-radius: 10px;
+	background-color: #ebf8ff;
+	font-family: verdana;
+	margin-top:20px;
+	
+}
+input[type=file] {
+    display: block;
+    margin: auto;
+}
+input[type=text] {
+    border :0;
+}
+form{
+	padding: 5% 20% 5% 20%;
+}
+.form_collection>form>table{
+	width: 100%;
+}
+label{
+ float: right;
+margin: 10px;
+}
+input{
+ float: left;
+ 
+}
+.buttons{
+	margin: 2% 30%;
+}
+a.btn.btn-danger{
+	margin-left: 10px;
+}
+.isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    margin:10px 22px;
+    /*padding: 5px 5px;*/
+	text-align: center;
+	border-radius: 5px;   
+ 
+}
+
+
+.isa_success{
+	color: #006400;
+    background-color: #90EE90;
+    margin:10px 22px;
+	/*padding: 5px;*/
+	border-radius: 5px;   
+   
+}
