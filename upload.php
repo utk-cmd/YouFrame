@@ -52,7 +52,7 @@ if(isset($_REQUEST['submit']))
 
 
     $msg = "<i class='fa fa-check' aria-hidden='true'>"."Successfully Inserted. Redirecting to main page"."</i>";
-    		header("refresh:2;index.php");
+    		header("refresh:2;index.html.php");
 	    
   }
   }
